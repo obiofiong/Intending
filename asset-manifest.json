@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/obiofiong/Intending.git/static/css/main.514654ba.chunk.css",
-    "main.js": "/obiofiong/Intending.git/static/js/main.9223bfc1.chunk.js",
-    "main.js.map": "/obiofiong/Intending.git/static/js/main.9223bfc1.chunk.js.map",
-    "runtime-main.js": "/obiofiong/Intending.git/static/js/runtime-main.a116d991.js",
-    "runtime-main.js.map": "/obiofiong/Intending.git/static/js/runtime-main.a116d991.js.map",
-    "static/js/2.ad8c15f2.chunk.js": "/obiofiong/Intending.git/static/js/2.ad8c15f2.chunk.js",
-    "static/js/2.ad8c15f2.chunk.js.map": "/obiofiong/Intending.git/static/js/2.ad8c15f2.chunk.js.map",
-    "static/js/3.885ebd86.chunk.js": "/obiofiong/Intending.git/static/js/3.885ebd86.chunk.js",
-    "static/js/3.885ebd86.chunk.js.map": "/obiofiong/Intending.git/static/js/3.885ebd86.chunk.js.map",
-    "index.html": "/obiofiong/Intending.git/index.html",
-    "static/css/main.514654ba.chunk.css.map": "/obiofiong/Intending.git/static/css/main.514654ba.chunk.css.map",
-    "static/js/2.ad8c15f2.chunk.js.LICENSE.txt": "/obiofiong/Intending.git/static/js/2.ad8c15f2.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/obiofiong/Intending.git/static/media/logo.6ce24c58.svg"
+    "main.css": "./static/css/main.514654ba.chunk.css",
+    "main.js": "./static/js/main.9223bfc1.chunk.js",
+    "main.js.map": "./static/js/main.9223bfc1.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.60df4f68.js",
+    "runtime-main.js.map": "./static/js/runtime-main.60df4f68.js.map",
+    "static/js/2.ad8c15f2.chunk.js": "./static/js/2.ad8c15f2.chunk.js",
+    "static/js/2.ad8c15f2.chunk.js.map": "./static/js/2.ad8c15f2.chunk.js.map",
+    "static/js/3.885ebd86.chunk.js": "./static/js/3.885ebd86.chunk.js",
+    "static/js/3.885ebd86.chunk.js.map": "./static/js/3.885ebd86.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.514654ba.chunk.css.map": "./static/css/main.514654ba.chunk.css.map",
+    "static/js/2.ad8c15f2.chunk.js.LICENSE.txt": "./static/js/2.ad8c15f2.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "./static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a116d991.js",
+    "static/js/runtime-main.60df4f68.js",
     "static/js/2.ad8c15f2.chunk.js",
     "static/css/main.514654ba.chunk.css",
     "static/js/main.9223bfc1.chunk.js"
