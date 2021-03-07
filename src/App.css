@@ -118,9 +118,10 @@
 .todo-list {
   display: block;
   margin: 0;
-  margin-left: 2em;
+  margin-left: 2em;  
   padding: 0;
   min-height: 260px;
+  height: 60%;
   overflow: auto;
 }
 .todo-list li {

@@ -1,7 +1,6 @@
-import React, {useState} from 'react'
+import React, {} from 'react'
 import TodoItem from './TodoItem'
 import '../App.css'
-import TodoForm from './TodoForm'
 
 function TodoList(props) {
     const handleComplete = (id) =>{
@@ -31,7 +30,7 @@ function TodoList(props) {
         props.updateTodos([...props.todos])
         
     }
-    return ( 
+    return ( ~
          
         <ul className = "todo-list">
             {props.todos.map((todo, index) => (
