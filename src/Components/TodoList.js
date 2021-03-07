@@ -30,7 +30,7 @@ function TodoList(props) {
         props.updateTodos([...props.todos])
         
     }
-    return ( ~
+    return (cd
          
         <ul className = "todo-list">
             {props.todos.map((todo, index) => (
