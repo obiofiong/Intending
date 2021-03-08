@@ -17,6 +17,7 @@ function TodoItem(props) {
         props.handleDelete(props.index)
     }
     const handleEditForm = () => {
+        // We set the edit check variable to true so as to run the edit todo-form within the return statement
         setEditCheck(true)
     }
     const handleEdit =(edited)=>{

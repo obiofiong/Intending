@@ -23,9 +23,15 @@
   text-align: center;
   border-radius: 15px;
   box-shadow: 3px 5px #14f532;
+  -webkit-transition: 300ms ease-in-out;
+  -moz-transition: 300ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
 }
 .todo-app:hover {
+  -webkit-transition: 300ms ease-in-out;
+  -moz-transition: 300ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
   box-shadow: 15px 15px rgba(255, 255, 255, 0.5);
 }
@@ -37,6 +43,9 @@
   /* margin: 5px 10px; */
   border-radius: 15px 15px 0 0;
   border-top: 4px solid #3a47d5;
+  -webkit-transition: all 250ms ease-out;
+  -moz-transition: all 250ms ease-out;
+  -o-transition: all 250ms ease-out;
   transition: all 250ms ease-out;
 }
 .header:hover {
@@ -83,6 +92,9 @@
   color: white;
 }
 .todo-input:hover {
+  -webkit-transition: all 250ms ease-out;
+  -moz-transition: all 250ms ease-out;
+  -o-transition: all 250ms ease-out;
   transition: all 250ms ease-in-out;
   border: 2px solid #14f532;
 }
@@ -102,8 +114,11 @@
   color: white;
   font-weight: 600;
   cursor: pointer;
-  transition: all 250ms ease-in-out;
   box-shadow: 2px 2px rgb(143, 142, 142);
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 .todo-button:hover {
   background-color: white;
@@ -118,7 +133,7 @@
 .todo-list {
   display: block;
   margin: 0;
-  margin-left: 2em;  
+  margin-left: 2em;
   padding: 0;
   min-height: 260px;
   height: 60%;
@@ -135,12 +150,18 @@
   border: 2px solid white;
   border-radius: 5px;
   margin-bottom: 0.5em;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
 }
 .todo-list li:hover {
   border-color: #14f532;
-  transition: all 400ms ease-in-out;
   cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 .todo-completed {
   text-decoration: line-through;
@@ -169,6 +190,9 @@
   font-size: 20px;
   color: white;
   cursor: pointer;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
 }
 .icon-del {
@@ -178,6 +202,9 @@
   background: red;
   /* border: 50% solid red;  */
   border-radius: 1em;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
 }
 .icon-edit:hover {
@@ -185,6 +212,9 @@
   /* border: 8rgb(187, 184, 184)lid gray;  */
   font-size: 25px;
   border-radius: 1.2em;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
 }
 
@@ -198,13 +228,13 @@
   width: 65%;
 }
 .edit-todo .todo-button {
-  border: 0.16em solid rgb(146, 146, 146);
+  border: 0.1em solid rgb(146, 146, 146);
 }
-.edit-todo .todo-button:hover {
+/* .edit-todo .todo-button:hover {
   background-color: transparent;
-  color: rgb(146, 146, 146);
-  border: 0.16em solid rgb(146, 146, 146);
-}
+  color: rgb(115, 247, 7);
+  border: 1px solid rgb(146, 146, 146);
+} */
 .edit-todo .todo-button:focus {
   outline: none;
 }

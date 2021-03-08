@@ -30,19 +30,19 @@ function TodoList(props) {
         props.updateTodos([...props.todos])
         
     }
-    return (cd
+    return (
          
-        <ul className = "todo-list">
-            {props.todos.map((todo, index) => (
-                    <TodoItem 
-                    todo = {todo} 
-                    key = {index} 
-                    index = {index}
-                    handleComplete ={handleComplete}
-                    handleDelete = {handleDelete}
-                    handleEdit = {handleEdit}
-                    />
-            ))}
+        <ul className = "todo-list">              
+                {props.todos.map((todo, index) => (
+                        <TodoItem 
+                        todo = {todo} 
+                        key = {index} 
+                        index = {index}
+                        handleComplete ={handleComplete}
+                        handleDelete = {handleDelete}
+                        handleEdit = {handleEdit}
+                        />
+                ))}
         </ul>
     )
 }

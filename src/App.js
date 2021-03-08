@@ -7,7 +7,11 @@ import { FaListAlt } from 'react-icons/fa';
 
 
 function App() {
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = useState( [{
+    id : Math.floor(Math.random()*10000),
+    title : 'Sample Completed Todo',
+    completed : true,
+  }] )
   // const [error, setError] = useState("")
   
   const formOnSubmit = (todo) => {
